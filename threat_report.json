@@ -1,0 +1,254 @@
+{
+  "generated_at": "2026-03-11T21:59:39.916753",
+  "total_threats": 26,
+  "blocked_ips_count": 1,
+  "blocked_ips": [
+    "45.155.205.233"
+  ],
+  "threats": [
+    {
+      "type": "suspicious_activity",
+      "data": {
+        "ip": "1.1.1.1",
+        "error_count": 3
+      }
+    },
+    {
+      "type": "suspicious_activity",
+      "data": {
+        "ip": "185.130.5.133",
+        "error_count": 5
+      }
+    },
+    {
+      "type": "suspicious_activity",
+      "data": {
+        "ip": "31.13.79.246",
+        "error_count": 3
+      }
+    },
+    {
+      "type": "suspicious_activity",
+      "data": {
+        "ip": "45.155.205.233",
+        "error_count": 5
+      }
+    },
+    {
+      "type": "suspicious_activity",
+      "data": {
+        "ip": "8.8.8.8",
+        "error_count": 3
+      }
+    },
+    {
+      "type": "malicious_ip",
+      "data": {
+        "ip": "45.155.205.233",
+        "malicious": 14,
+        "suspicious": 0,
+        "harmless": 48
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "NMAP:HTTP-APACHE-NEGOTIATION.NSE",
+        "title": "http-apache-negotiation NSE Script",
+        "cvss": 10.0,
+        "published": "2011-12-08T20:50:12",
+        "description": "Checks if the target http server has mod_negotiation enabled. This feature can be leveraged to find hidden resources and spider a web site using fewer..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2025-58098",
+        "title": "BIT-APACHE-2025-58098 Apache HTTP Server: Server Side Includes adds query string to #exec cmd=...",
+        "cvss": 8.3,
+        "published": "2025-12-09T11:38:15",
+        "description": "Apache HTTP Server 2.4.65 and earlier with Server Side Includes (SSI) enabled and mod_cgid (but not mod_cgi) passes the shell-escaped query string to ..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2025-49630",
+        "title": "BIT-APACHE-2025-49630 Apache HTTP Server: mod_proxy_http2 denial of service",
+        "cvss": 7.5,
+        "published": "2025-07-16T07:56:28",
+        "description": "In certain proxy configurations, a denial of service attack against Apache HTTP Server versions 2.4.26 through to 2.4.63 can be triggered by untrusted..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2024-40898",
+        "title": "BIT-APACHE-2024-40898 Apache HTTP Server: SSRF with mod_rewrite in server/vhost context on Windows",
+        "cvss": 9.1,
+        "published": "2024-07-23T07:16:32",
+        "description": "SSRF in Apache HTTP Server on Windows with mod_rewrite in server/vhost context, allows to potentially leak NTML hashes to a malicious server via SSRF ..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2024-38472",
+        "title": "BIT-APACHE-2024-38472",
+        "cvss": 7.5,
+        "published": "2024-07-03T07:17:47",
+        "description": "SSRF in Apache HTTP Server on Windows allows to potentially leak NTML hashes to a malicious server via SSRF and malicious requests or content Users ar..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2024-38473",
+        "title": "BIT-APACHE-2024-38473 Apache HTTP Server proxy encoding problem",
+        "cvss": 8.1,
+        "published": "2024-07-03T07:17:33",
+        "description": "Encoding problem in mod_proxy in Apache HTTP Server 2.4.59 and earlier allows request URLs with incorrect encoding to be sent to backend services, pot..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2024-38476",
+        "title": "BIT-APACHE-2024-38476 Apache HTTP Server may use exploitable/malicious backend application output to run local handlers via internal redirect",
+        "cvss": 9.8,
+        "published": "2024-07-03T07:16:44",
+        "description": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclosure, SSRF or local script execution via backend ap..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2020-35452",
+        "title": "BIT-APACHE-2020-35452 mod_auth_digest possible stack overflow by one nul byte",
+        "cvss": 7.3,
+        "published": "2024-03-06T10:56:44",
+        "description": "Apache HTTP Server versions 2.4.0 to 2.4.46 A specially crafted Digest nonce can cause a stack overflow in mod_auth_digest. There is no report of this..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2021-42013",
+        "title": "BIT-APACHE-2021-42013 Path Traversal and Remote Code Execution in Apache HTTP Server 2.4.49 and 2.4.50 (incomplete fix of CVE-2021-41773)",
+        "cvss": 9.8,
+        "published": "2024-03-06T10:54:27",
+        "description": "It was found that the fix for CVE-2021-41773 in Apache HTTP Server 2.4.50 was insufficient. An attacker could use a path traversal attack to map URLs ..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "OSV:BIT-APACHE-2022-29404",
+        "title": "BIT-APACHE-2022-29404 Denial of service in mod_lua r:parsebody",
+        "cvss": 7.5,
+        "published": "2024-03-06T10:52:28",
+        "description": "In Apache HTTP Server 2.4.53 and earlier, a malicious request to a lua script that calls r:parsebody(0) may cause a denial of service due to no defaul..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "NGINX",
+        "title": "Immunity Canvas: NGINX",
+        "cvss": 7.5,
+        "published": "2009-09-15T22:30:00",
+        "description": "**Name**|  nginx  \n---|---  \n**CVE**|  CVE-2009-2629  \n**Exploit Pack**|  [CANVAS](<http://http://www.immunityinc.com/products-canvas.shtml>)  \n**Desc..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "VERACODE:37620",
+        "title": "Denial Of Service (DoS)",
+        "cvss": 7.1,
+        "published": "2022-10-20T10:38:18",
+        "description": "nginx is vulnerable to denial of service. The module `ngx_http_mp4_module` allows a local attacker to cause a worker process to crash, trigger a memor..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "PRION:CVE-2013-0337",
+        "title": "Default configuration",
+        "cvss": 7.5,
+        "published": "2013-10-27T00:55:00",
+        "description": "The default configuration of nginx, possibly 1.3.13 and earlier, uses world-readable permissions for the (1) access.log and (2) error.log files, which..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "VERACODE:37619",
+        "title": "Denial Of Service (DoS)",
+        "cvss": 7.8,
+        "published": "2022-10-20T10:38:13",
+        "description": "nginx is vulnerable to denial of service. The vulnerability exists due to a memory corruption in `ngx_http_mp4_module` when the mp4 directive is used ..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "CVE-2013-0337",
+        "title": "CVE-2013-0337",
+        "cvss": 7.5,
+        "published": "2013-10-27T00:00:00",
+        "description": "The default configuration of nginx, possibly 1.3.13 and earlier, uses world-readable permissions for the (1) access.log and (2) error.log files, which..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "F5:K27205552",
+        "title": "K27205552: NGINX Controller vulnerability CVE-2020-5864",
+        "cvss": 7.4,
+        "published": "2023-02-21T19:01:28",
+        "description": "### Security Advisory Description\n\nCommunication between NGINX Controller and NGINX Plus instances skip TLS verification by default. (CVE-2020-5864)\n\n..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "VERACODE:35431",
+        "title": "Denial Of Service (DoS)",
+        "cvss": 9.8,
+        "published": "2022-05-08T02:04:30",
+        "description": "njs is vulnerable to denial of service. An attacker can crash the application through the out-of-bounds array access via `njs_vmcode_typeof` in `/src/..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "VERACODE:35433",
+        "title": "Use After Free",
+        "cvss": 9.8,
+        "published": "2022-05-08T07:43:11",
+        "description": "njs is vulnerable to use after free. The vulnerability exists due to a memory corruption in njs_await_fulfilled.\n..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "VERACODE:35430",
+        "title": "Privilege Escalation",
+        "cvss": 9.8,
+        "published": "2022-05-08T02:04:24",
+        "description": "njs is vulnerable to privilege escalation. The vulnerability exists in `njs_promise_perform_then` function due to a type confusion which allows an att..."
+      }
+    },
+    {
+      "type": "vulnerability",
+      "data": {
+        "id": "VERACODE:35131",
+        "title": "Access Restriction Bypass",
+        "cvss": 7.4,
+        "published": "2022-04-16T19:23:44",
+        "description": "nginx is vulnerable to access restriction bypass. The vulnerability exists because TLS servers implementing different protocols but using compatible c..."
+      }
+    }
+  ]
+}
