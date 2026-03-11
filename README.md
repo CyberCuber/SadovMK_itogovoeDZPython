@@ -1,7 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Automated+science+Monitoring+System)](https://git.io/typing-svg)
 
-# Automated Threat Monitoring System
-
 ## Описание проекта
 Автоматизированная система мониторинга и реагирования на угрозы безопасности. 
 Проект выполнен в рамках итогового домашнего задания по курсу Python.
@@ -21,17 +19,11 @@
 
 ## Установка и запуск
 1. Установить библиотеки:
-
-`pip install requests pandas matplotlib
-
+`pip install requests pandas matplotlib`
 2. Создать тестовые логи:
-
-python create_logs.py
-
+`python create_logs.py`
 3. Запустить основной скрипт:
-
-python threat_monitor.py
-
+`python threat_monitor.py`
 
 ## Результаты работы
 - `threat_report.json` - отчет об угрозах
@@ -48,3 +40,4 @@ threat_monitor/
 +-- threat_report.json # отчет (создается)
 
 L-- threat_analysis.png # график (создается)
+
