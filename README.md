@@ -30,14 +30,16 @@
 - `threat_analysis.png` - график распределения угроз
 - `logs/suricata.json` - проанализированные логи
 
-## Структура проекта
-threat_monitor/
-+-- threat_monitor.py # основной скрипт
-+-- create_logs.py # создание тестовых логов
-+-- README.md # документация
-+-- logs/ # папка с логами
-¦ L-- suricata.json # логи
-+-- threat_report.json # отчет (создается)
+## 🗂️ Структура проекта
 
-L-- threat_analysis.png # график (создается)
+```ascii
+📦 threat_monitor
+ ┣━━ 📜 threat_monitor.py       🔍 Основной скрипт мониторинга
+ ┣━━ 📜 create_logs.py          🛠️  Генератор тестовых логов
+ ┣━━ 📜 README.md                📄 Документация
+ ┣━━ 📁 logs/                    📂 Папка с логами
+ ┃    ┗━━ 📜 suricata.json       📊 Тестовые логи (50 записей)
+ ┣━━ 📜 threat_report.json       📋 Отчет (26 угроз)
+ ┗━━ 📜 threat_analysis.png      📈 График распределения угроз
+
 
